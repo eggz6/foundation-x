@@ -6,11 +6,11 @@
 
 ### Import 
 ```
-go get -u -v github.com/guanwenbogit/foudation-x/plugin
+go get -u -v github.com/eggz6/foudation-x/plugin
 ```
 
 ```
-import "github.com/guanwenbogit/foudation-x/plugin"
+import "github.com/eggz6/foudation-x/plugin"
 ```
 
 ### implement Pluggable in the plugin project, for example:
@@ -48,7 +48,7 @@ func (m *my) Perpare(ctx context.Context) error {
 
 ### Register plugin in the plugin project with init func 
 ```
-improt "github.com/guanwenbogit/foudation-x/plugin"
+improt "github.com/eggz6/foudation-x/plugin"
 ...
 func init() {
     plugin.Register(&my{name: "my-plugin"})
@@ -61,7 +61,7 @@ func init() {
 ```
 package app
 
-improt "github.com/guanwenbogit/foudation-x/plugin"
+improt "github.com/eggz6/foudation-x/plugin"
 import _ "myPlugin"
 ...
 
