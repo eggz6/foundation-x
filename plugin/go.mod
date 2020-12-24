@@ -1,3 +1,3 @@
-module github.com/guanwenbogit/foundation-x/plugin
+module github.com/eggz6/foundation-x/plugin
 
 go 1.15

@@ -4,10 +4,10 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/guanwenbogit/foundation-x/example/pluginA/app"
-	"github.com/guanwenbogit/foundation-x/plugin"
+	"github.com/eggz6/foundation-x/example/pluginA/app"
+	"github.com/eggz6/foundation-x/plugin"
 
-	_ "github.com/guanwenbogit/foundation-x/example/pluginB"
+	_ "github.com/eggz6/foundation-x/example/pluginB"
 )
 
 func init() {
