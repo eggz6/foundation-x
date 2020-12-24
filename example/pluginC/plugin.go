@@ -6,8 +6,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/guanwenbogit/foundation-x/example"
-	"github.com/guanwenbogit/foundation-x/plugin"
+	"github.com/eggz6/foundation-x/example"
+	"github.com/eggz6/foundation-x/plugin"
 )
 
 const PluginC = "plugin-c"
